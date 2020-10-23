@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18FC19AD5DD95EF042E6784E /* Pods_QuickPersist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F22798F4877E908B7FB24D18 /* Pods_QuickPersist.framework */; };
-		3989DFF16B74819A8A1D74D4 /* Pods_QuickPersist_QuickPersistTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C8697B67D2A583FFEDFDA43 /* Pods_QuickPersist_QuickPersistTests.framework */; };
+		7049AD44A9F8C2B8196D1AAB /* Pods_QuickPersist_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B667DE3EBF3AFA7BCA432A /* Pods_QuickPersist_iOS.framework */; };
+		BCEF4A00F6967215EB028E33 /* Pods_QuickPersist_iOS_QuickPersistTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F84981543F6EAF7DF7C3CA8C /* Pods_QuickPersist_iOS_QuickPersistTests.framework */; };
 		F28172462542F76900ACA60D /* QuickPersist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F281723C2542F76900ACA60D /* QuickPersist.framework */; };
 		F281724B2542F76900ACA60D /* OperatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F281724A2542F76900ACA60D /* OperatorTests.swift */; };
 		F281724D2542F76900ACA60D /* QuickPersist.h in Headers */ = {isa = PBXBuildFile; fileRef = F281723F2542F76900ACA60D /* QuickPersist.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -33,11 +33,14 @@
 
 /* Begin PBXFileReference section */
 		0ADF67F4395DDDE0236ECC7D /* Pods-QuickPersist-QuickPersistTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickPersist-QuickPersistTests.debug.xcconfig"; path = "Target Support Files/Pods-QuickPersist-QuickPersistTests/Pods-QuickPersist-QuickPersistTests.debug.xcconfig"; sourceTree = "<group>"; };
-		1C8697B67D2A583FFEDFDA43 /* Pods_QuickPersist_QuickPersistTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickPersist_QuickPersistTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5086AC6BA5FCA4D9328B6FFA /* Pods-QuickPersist-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickPersist-iOS.release.xcconfig"; path = "Target Support Files/Pods-QuickPersist-iOS/Pods-QuickPersist-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		52B667DE3EBF3AFA7BCA432A /* Pods_QuickPersist_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickPersist_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D0D9E5A37FB26CDBBD7A116 /* Pods-QuickPersist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickPersist.debug.xcconfig"; path = "Target Support Files/Pods-QuickPersist/Pods-QuickPersist.debug.xcconfig"; sourceTree = "<group>"; };
+		62971350A6FF4A150D6C3385 /* Pods-QuickPersist-iOS-QuickPersistTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickPersist-iOS-QuickPersistTests.debug.xcconfig"; path = "Target Support Files/Pods-QuickPersist-iOS-QuickPersistTests/Pods-QuickPersist-iOS-QuickPersistTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9128BC8FDE697AE2F9E84D57 /* Pods-QuickPersist-QuickPersistTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickPersist-QuickPersistTests.release.xcconfig"; path = "Target Support Files/Pods-QuickPersist-QuickPersistTests/Pods-QuickPersist-QuickPersistTests.release.xcconfig"; sourceTree = "<group>"; };
 		A1F4B4DAB0F92C9A70CBCB74 /* Pods-QuickPersist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickPersist.release.xcconfig"; path = "Target Support Files/Pods-QuickPersist/Pods-QuickPersist.release.xcconfig"; sourceTree = "<group>"; };
-		F22798F4877E908B7FB24D18 /* Pods_QuickPersist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickPersist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA16D37B94F8F2D0333460BB /* Pods-QuickPersist-iOS-QuickPersistTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickPersist-iOS-QuickPersistTests.release.xcconfig"; path = "Target Support Files/Pods-QuickPersist-iOS-QuickPersistTests/Pods-QuickPersist-iOS-QuickPersistTests.release.xcconfig"; sourceTree = "<group>"; };
+		EB6E979A4156A8381F21A346 /* Pods-QuickPersist-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickPersist-iOS.debug.xcconfig"; path = "Target Support Files/Pods-QuickPersist-iOS/Pods-QuickPersist-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		F281723C2542F76900ACA60D /* QuickPersist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuickPersist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F281723F2542F76900ACA60D /* QuickPersist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickPersist.h; sourceTree = "<group>"; };
 		F28172402542F76900ACA60D /* QuickPersist.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = QuickPersist.plist; sourceTree = "<group>"; };
@@ -52,6 +55,7 @@
 		F28172682542F7DB00ACA60D /* Persistable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistable.swift; sourceTree = "<group>"; };
 		F28172812542FC6E00ACA60D /* QuickPersistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickPersistTests.swift; sourceTree = "<group>"; };
 		F281729E2543037400ACA60D /* LinuxMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
+		F84981543F6EAF7DF7C3CA8C /* Pods_QuickPersist_iOS_QuickPersistTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickPersist_iOS_QuickPersistTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18FC19AD5DD95EF042E6784E /* Pods_QuickPersist.framework in Frameworks */,
+				7049AD44A9F8C2B8196D1AAB /* Pods_QuickPersist_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,7 +72,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F28172462542F76900ACA60D /* QuickPersist.framework in Frameworks */,
-				3989DFF16B74819A8A1D74D4 /* Pods_QuickPersist_QuickPersistTests.framework in Frameworks */,
+				BCEF4A00F6967215EB028E33 /* Pods_QuickPersist_iOS_QuickPersistTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,8 +82,8 @@
 		31CA6A6BBC176F052A1C5406 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F22798F4877E908B7FB24D18 /* Pods_QuickPersist.framework */,
-				1C8697B67D2A583FFEDFDA43 /* Pods_QuickPersist_QuickPersistTests.framework */,
+				52B667DE3EBF3AFA7BCA432A /* Pods_QuickPersist_iOS.framework */,
+				F84981543F6EAF7DF7C3CA8C /* Pods_QuickPersist_iOS_QuickPersistTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -153,6 +157,10 @@
 				A1F4B4DAB0F92C9A70CBCB74 /* Pods-QuickPersist.release.xcconfig */,
 				0ADF67F4395DDDE0236ECC7D /* Pods-QuickPersist-QuickPersistTests.debug.xcconfig */,
 				9128BC8FDE697AE2F9E84D57 /* Pods-QuickPersist-QuickPersistTests.release.xcconfig */,
+				EB6E979A4156A8381F21A346 /* Pods-QuickPersist-iOS.debug.xcconfig */,
+				5086AC6BA5FCA4D9328B6FFA /* Pods-QuickPersist-iOS.release.xcconfig */,
+				62971350A6FF4A150D6C3385 /* Pods-QuickPersist-iOS-QuickPersistTests.debug.xcconfig */,
+				EA16D37B94F8F2D0333460BB /* Pods-QuickPersist-iOS-QuickPersistTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -171,9 +179,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		F281723B2542F76900ACA60D /* QuickPersist */ = {
+		F281723B2542F76900ACA60D /* QuickPersist-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F28172502542F76900ACA60D /* Build configuration list for PBXNativeTarget "QuickPersist" */;
+			buildConfigurationList = F28172502542F76900ACA60D /* Build configuration list for PBXNativeTarget "QuickPersist-iOS" */;
 			buildPhases = (
 				6DCE61862AF3FD4702B0DF59 /* [CP] Check Pods Manifest.lock */,
 				F28172372542F76900ACA60D /* Headers */,
@@ -185,7 +193,7 @@
 			);
 			dependencies = (
 			);
-			name = QuickPersist;
+			name = "QuickPersist-iOS";
 			productName = QuickPersist;
 			productReference = F281723C2542F76900ACA60D /* QuickPersist.framework */;
 			productType = "com.apple.product-type.framework";
@@ -241,7 +249,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F281723B2542F76900ACA60D /* QuickPersist */,
+				F281723B2542F76900ACA60D /* QuickPersist-iOS */,
 				F28172442542F76900ACA60D /* QuickPersistTests */,
 			);
 		};
@@ -280,7 +288,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-QuickPersist-QuickPersistTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-QuickPersist-iOS-QuickPersistTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -302,7 +310,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-QuickPersist-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-QuickPersist-iOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -315,15 +323,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-QuickPersist-QuickPersistTests/Pods-QuickPersist-QuickPersistTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-QuickPersist-iOS-QuickPersistTests/Pods-QuickPersist-iOS-QuickPersistTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-QuickPersist-QuickPersistTests/Pods-QuickPersist-QuickPersistTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-QuickPersist-iOS-QuickPersistTests/Pods-QuickPersist-iOS-QuickPersistTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuickPersist-QuickPersistTests/Pods-QuickPersist-QuickPersistTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuickPersist-iOS-QuickPersistTests/Pods-QuickPersist-iOS-QuickPersistTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -356,7 +364,7 @@
 /* Begin PBXTargetDependency section */
 		F28172482542F76900ACA60D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F281723B2542F76900ACA60D /* QuickPersist */;
+			target = F281723B2542F76900ACA60D /* QuickPersist-iOS */;
 			targetProxy = F28172472542F76900ACA60D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -486,7 +494,7 @@
 		};
 		F28172512542F76900ACA60D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D0D9E5A37FB26CDBBD7A116 /* Pods-QuickPersist.debug.xcconfig */;
+			baseConfigurationReference = EB6E979A4156A8381F21A346 /* Pods-QuickPersist-iOS.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -503,7 +511,8 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.QuickPersist;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_MODULE_NAME = QuickPersist;
+				PRODUCT_NAME = QuickPersist;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -513,7 +522,7 @@
 		};
 		F28172522542F76900ACA60D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1F4B4DAB0F92C9A70CBCB74 /* Pods-QuickPersist.release.xcconfig */;
+			baseConfigurationReference = 5086AC6BA5FCA4D9328B6FFA /* Pods-QuickPersist-iOS.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,7 +539,8 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.QuickPersist;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_MODULE_NAME = QuickPersist;
+				PRODUCT_NAME = QuickPersist;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -539,7 +549,7 @@
 		};
 		F28172542542F76900ACA60D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0ADF67F4395DDDE0236ECC7D /* Pods-QuickPersist-QuickPersistTests.debug.xcconfig */;
+			baseConfigurationReference = 62971350A6FF4A150D6C3385 /* Pods-QuickPersist-iOS-QuickPersistTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -559,7 +569,7 @@
 		};
 		F28172552542F76900ACA60D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9128BC8FDE697AE2F9E84D57 /* Pods-QuickPersist-QuickPersistTests.release.xcconfig */;
+			baseConfigurationReference = EA16D37B94F8F2D0333460BB /* Pods-QuickPersist-iOS-QuickPersistTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -589,7 +599,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F28172502542F76900ACA60D /* Build configuration list for PBXNativeTarget "QuickPersist" */ = {
+		F28172502542F76900ACA60D /* Build configuration list for PBXNativeTarget "QuickPersist-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F28172512542F76900ACA60D /* Debug */,
