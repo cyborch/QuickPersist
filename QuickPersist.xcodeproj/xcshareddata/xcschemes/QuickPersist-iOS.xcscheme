@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F281723B2542F76900ACA60D"
-               BuildableName = "QuickPersist_iOS.framework"
+               BuildableName = "QuickPersist.framework"
                BlueprintName = "QuickPersist-iOS"
                ReferencedContainer = "container:QuickPersist.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F281723B2542F76900ACA60D"
-            BuildableName = "QuickPersist_iOS.framework"
+            BuildableName = "QuickPersist.framework"
             BlueprintName = "QuickPersist-iOS"
             ReferencedContainer = "container:QuickPersist.xcodeproj">
          </BuildableReference>
@@ -72,7 +72,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F281723B2542F76900ACA60D"
-            BuildableName = "QuickPersist_iOS.framework"
+            BuildableName = "QuickPersist.framework"
             BlueprintName = "QuickPersist-iOS"
             ReferencedContainer = "container:QuickPersist.xcodeproj">
          </BuildableReference>
