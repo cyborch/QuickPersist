@@ -31,15 +31,15 @@ public struct WriteTransaction {
     
     /// Adds or updates an existing Persistable type into the Realm.
     /// - parameter value: The value to be added to the realm.
-    /// - parameter update: If true, the Realm will try to find a value with the same primary key and update it. Otherwise, the value will be added.
-    public func add<T: Persistable>(_ value: T, update: Bool) throws {
+    /// - parameter update: What to do if an object with the same primary key alredy exists. Must be `.error` for objects without a primary key.
+    public func add<T: Persistable>(_ value: T, update: Realm.UpdatePolicy) throws {
         realm.add(try value.container(), update: update)
     }
     
     /// Adds or updates an existing sequence of Persistable types into the Realm.
     /// - parameter values: The sequence of values to be added to the realm.
-    /// - parameter update: If true, the Realm will try to find values with the same primary keys and update them. Otherwise, the values will be added.
-    public func add<S: Sequence>(_ values: S, update: Bool) throws where S.Element: Persistable {
+    /// - parameter update: What to do if an object with the same primary key alredy exists. Must be `.error` for objects without a
+    public func add<S: Sequence>(_ values: S, update: Realm.UpdatePolicy) throws where S.Element: Persistable {
         try values.forEach { try add($0, update: update) }
     }
     

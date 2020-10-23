@@ -1,23 +1,50 @@
 //
 //  QuickPersistTests.swift
-//  QuickPersist
+//  QuickPersistTests
 //
-//  Created by cszatma on 2017-10-10.
-//  Copyright © 2017 QuickPersist. All rights reserved.
+//  Created by Anders Borch on 23/10/2020.
 //
 
-import Foundation
 import XCTest
-import QuickPersist
+import RealmSwift
+@testable import QuickPersist
 
-class QuickPersistTests: XCTestCase {
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        //// XCTAssertEqual(QuickPersist().text, "Hello, World!")
+struct Person {
+    var name: String
+    var age: Int
+    let id: String
+}
+
+extension Person: Persistable {
+    static var typeName: String {
+        return "Person"
     }
     
-    static var allTests = [
-        ("testExample", testExample),
-    ]
+    var primaryKey: String {
+        return id
+    }
+}
+
+class QuickPersistTests: XCTestCase {
+
+    func testWriteTransaction() throws {
+        guard let realm = try? Realm() else {
+            XCTFail("Failed initializing realm")
+            return
+        }
+        let op = RealmOperator(realm: realm)
+        
+        let id = UUID().uuidString
+        let person = Person(name: "John Doe", age: 20, id: id)
+
+        XCTAssertNoThrow(try op.write { (writeTransaction) in
+            XCTAssertNoThrow(try writeTransaction.add(person, update: .all))
+        })
+        
+        let result = op.value(ofType: Person.self, withPrimaryKey: id)
+        XCTAssertEqual(person.name, result?.name)
+        XCTAssertEqual(person.age, result?.age)
+        XCTAssertEqual(person.id, result?.id)
+    }
+
 }

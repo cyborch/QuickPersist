@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "1200"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "52D6D97B1BEFF229002C0205"
+               BlueprintIdentifier = "F281723B2542F76900ACA60D"
                BuildableName = "QuickPersist.framework"
-               BlueprintName = "QuickPersist-iOS"
+               BlueprintName = "QuickPersist"
                ReferencedContainer = "container:QuickPersist.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -27,30 +27,29 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES">
+      codeCoverageEnabled = "YES"
+      onlyGenerateCoverageForSpecifiedTargets = "YES">
+      <CodeCoverageTargets>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F281723B2542F76900ACA60D"
+            BuildableName = "QuickPersist.framework"
+            BlueprintName = "QuickPersist"
+            ReferencedContainer = "container:QuickPersist.xcodeproj">
+         </BuildableReference>
+      </CodeCoverageTargets>
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "52D6D9851BEFF229002C0205"
-               BuildableName = "QuickPersist-iOS Tests.xctest"
-               BlueprintName = "QuickPersist-iOS Tests"
+               BlueprintIdentifier = "F28172442542F76900ACA60D"
+               BuildableName = "QuickPersistTests.xctest"
+               BlueprintName = "QuickPersistTests"
                ReferencedContainer = "container:QuickPersist.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "52D6D97B1BEFF229002C0205"
-            BuildableName = "QuickPersist.framework"
-            BlueprintName = "QuickPersist-iOS"
-            ReferencedContainer = "container:QuickPersist.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -62,17 +61,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "52D6D97B1BEFF229002C0205"
-            BuildableName = "QuickPersist.framework"
-            BlueprintName = "QuickPersist-iOS"
-            ReferencedContainer = "container:QuickPersist.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -83,9 +71,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "52D6D97B1BEFF229002C0205"
+            BlueprintIdentifier = "F281723B2542F76900ACA60D"
             BuildableName = "QuickPersist.framework"
-            BlueprintName = "QuickPersist-iOS"
+            BlueprintName = "QuickPersist"
             ReferencedContainer = "container:QuickPersist.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

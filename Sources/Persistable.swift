@@ -38,11 +38,11 @@ public protocol Persistable: Codable {
 }
 
 public extension Persistable {
-    public static func create(fromContainer container: QPContainer) throws -> Self {
+    static func create(fromContainer container: QPContainer) throws -> Self {
         return try JSONDecoder().decode(Self.self, from: container.data)
     }
     
-    public func container() throws -> QPContainer {
+    func container() throws -> QPContainer {
         return QPContainer(data: try JSONEncoder().encode(self), typeName: Self.typeName, id: primaryKey)
     }
 }
